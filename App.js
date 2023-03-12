@@ -8,9 +8,9 @@ import HomeScren from './screens/HomeScreen';
 export default function App() {
   return (
     <SafeAreaProvider>
-    <View style={styles.container}>
-      <HomeScren/>
-    </View>
+      <View style={styles.container}>
+        <HomeScren/>
+      </View>
     </SafeAreaProvider>
   );
 }
